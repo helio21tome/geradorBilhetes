@@ -19,7 +19,6 @@
                 <form method="post" action="Cbridge.php">
 
                     <div class = "header">
-
                         <div class = "title">
                             <h2>Cadastre-se Agora!</h2>
                         </div>
@@ -42,7 +41,6 @@
                                 <option>Partida</option>
                                 <option>Tete</option>
                                 <option>Chimoio</option>
-                                <option>Beira</option>
                             </select>
                         </div>
                     </div>
@@ -53,14 +51,13 @@
                                 <option>Destino</option>
                                 <option>Tete</option>
                                 <option>Chimoio</option>
-                                <option>Beira</option>
                             </select>
                         </div>
                     </div>
 
                     <div class = "input_group">
                         <div class = "input_box">
-                            <input id = "lnumero" type = "text" name = "numero_pessoal" placeholder = "O teu numero" maxlength = "9" required>
+                            <input id = "lnumero" type = "text" name = "numero_pessoal" placeholder = "O teu numero M-pesa" maxlength = "9" required>
                         </div>
                     </div>
 
@@ -81,9 +78,11 @@
                         </div>
                     </div>
 
+                    <div>
+                        <input type="hidden" name="o_que_fazer" value="vform" >
+                    </div>
                 </from>
             </div>
         </div>
-
     </body>
 </HTML>
